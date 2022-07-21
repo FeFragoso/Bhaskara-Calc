@@ -1,0 +1,26 @@
+* {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#divInput {
+    height: 30vh;
+}
+
+.input {
+    height: 3vh;
+    width: 3vh;
+    margin-bottom: 1vh;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
